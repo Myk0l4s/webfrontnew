@@ -23,16 +23,17 @@
             height: 30%;
             // border: 1px solid black;
             overflow: none;
-            margin-bottom: 100px;
+            margin-bottom: 400px;
             h1 {
             // display: inline-block;
             text-align: center;
-            font-size: 35px;
-            padding: 10px;
+            font-size: 50px;
+            padding: 50px;
             p {
                 text-align: center;
                 // display: inline-block;
                 margin-right: 50px;
+                font-size: 20px;
                 }
             }
         }
@@ -44,6 +45,7 @@
     width: 60%;
     height: 20%;
     // border: 1px solid black;
+    margin-left: 150px;
     .fix {
         // display: inline-block;
         width: 25%;
@@ -51,13 +53,28 @@
         // border: 1px solid black;
         float: left;
         text-align: center;
+        color: white;
+       
         h2 {
             margin-top: 10px;
             font-size: 30px;
             p {
                 font-size: 10px;
-                
+                color: white;
             }
         }
-    }
+     }
+   }
+
+   .email__text {
+     position: absolute;
+     margin-top: 500px;
+     width: 100%;
+     
+   }
+   
+   .sub__button {
+       position: absolute;
+       margin-top: 550px;
+       width: 100%;
    }

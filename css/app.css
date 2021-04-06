@@ -196,6 +196,10 @@ main .left__box h2 {
   border: 1px solid black;
 }
 
+.UX {
+  width: 90%;
+}
+
 .right__box {
   width: 40%;
   height: 100%;

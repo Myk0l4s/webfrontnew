@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper header {
+  width: 100%;
+  height: 100vh;
+  background: url(../src/969256.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper header .textarea {
+  position: absolute;
+  display: inline-block;
+  width: 40%;
+  height: 30%;
+  overflow: none;
+  margin-bottom: 100px;
+}
+
+.wrapper header .textarea h1 {
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.wrapper header .textarea h1 p {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.countdown {
+  margin-top: 150px;
+  width: 60%;
+  height: 20%;
+}
+
+.countdown .fix {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.countdown .fix h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.countdown .fix h2 p {
+  font-size: 10px;
+}

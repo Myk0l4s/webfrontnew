@@ -110,12 +110,15 @@ main {
     height: 25%;
     margin-top: 30px;
     border: 1px solid black;
+    display: inline-block;
+    .span__UX {
+      width: 90%;
+      margin-left: 20px;
+      display: inline-block;
+  }
 }
 
-.UX {
-    width: 90%;
-    
-}
+
 
 
 // !LEFT BOX!
